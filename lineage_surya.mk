@@ -15,7 +15,7 @@ $(call inherit-product, device/xiaomi/surya/device.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Project Matrixx
-MATRIXX_BUILD_TYPE := Unofficial
+MATRIXX_BUILD_TYPE := Official
 MATRIXX_MAINTAINER := lily985丨Muichir09
 MATRIXX_CHIPSET := SM7150
 MATRIXX_BATTERY := 6000mah
@@ -23,9 +23,6 @@ MATRIXX_DISPLAY := 1080x2400
 
 # Nuke AudioFX
 TARGET_EXCLUDES_AUDIOFX := true
-
-# Nuke Auxio
-TARGET_EXCLUDES_AUXIO := true
 
 # BOOT_ANIMATION
 TARGET_BOOT_ANIMATION_RES := 1080
@@ -35,7 +32,6 @@ WITH_GMS := true
 BUILD_GOOGLE_CONTACTS := true
 BUILD_GOOGLE_DIALER := true
 BUILD_GOOGLE_MESSAGE := true
-
 
 PRODUCT_NAME := lineage_surya
 PRODUCT_DEVICE := surya
