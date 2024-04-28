@@ -15,6 +15,9 @@ DEVICE_PATH := device/xiaomi/surya
 # Inherit from proprietary files
 include vendor/xiaomi/surya/BoardConfigVendor.mk
 
+# Inherit from proprietary files for miuicamera
+-include vendor/xiaomi/surya-miuicamera/products/board.mk
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-2a-dotprod

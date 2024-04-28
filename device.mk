@@ -109,7 +109,7 @@ PRODUCT_PACKAGES += \
     libpiex_shim
 
 # Camera
-$(call inherit-product-if-exists, device/xiaomi/surya-miuicamera/config.mk)
+$(call inherit-product-if-exists, vendor/xiaomi/surya-miuicamera/products/miuicamera.mk)
 
 
 # Dex/ART optimization
